@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: slategray;
+  background: color hsl(248, 88%, 51%);
+  font-size: 1.2rem;
+}
+
+.navbar {
+  background-color: currentColor;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 30px;
+
+}
+img {
+	width: 250px;
+	height: 250x;
+  
+}
+
+.navbar-item {
+  color:black;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about, .work, .resume, .contact {
+  padding: 20px;
+  margin: 20px;
+  color: blueviolet;
+}
+
+.footer {
+  background-color: lightgray;
+  text-align: center;
+  padding: 10px;
+}
